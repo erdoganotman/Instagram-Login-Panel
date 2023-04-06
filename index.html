@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="body">
+      <div class="left">
+       <img src="images\clearphone.png" alt="phone"class="phone"/>
+      </div>
+      <div class="right">
+        <div class="form">
+        <img src="images\logo.png" class="logo"/></br>
+            <input type="text" class="txt" placeholder="Telefon numarası,kullanıcı adı veya e-posta" name="userid"/></br>  
+            <input type="text" class="txt" id="txt"placeholder="Şifre" name="password"/></br>
+            <button type="submit" name="submit" class="btn">Giriş Yap</button>
+            <div class="ya-da">
+                <span class="left-hr"></span>
+                <span class="ya-da-text">YA DA</span>
+                <span class="right-hr"></span>
+                <div class="fblog">
+                    <img src="images\FBICON.png" style="height: 15px;width: 15px;vertical-align: middle;text-align: right;padding-top: 25px;"><span class="fbtext">Facebook ile Giriş Yap</span>
+                </div>
+                <div class="pass">Şifremi Unuttum</div>
+            </div>
+        </div>
+        <div class="sing-in"><p>Hesabın yok mu?<span style="color:rgb(49, 151, 235);font-weight: bold;"> Kaydol</span></p>
+        </div>
+        <span class="app">Uygulamayı indir</br></span>
+        <div class="android"><img src="images\android.png" alt="" style="height: 40px;width: 100px;"></div>
+        <div class="microsoft"><img src="images\microsoft.png" alt=""style="height: 40px;width: 100px;"></div>
+      </div>
+
+    </div>
+    
+    <style>
+        .left{
+            display: inline-block;
+            float: left;
+            width: 50%;   
+        }
+        .right{
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+        .form{
+            border: 1px solid;
+            padding: 25px 50px 50px 50px;
+            width:250px;
+            border-color: rgb(180, 180, 180);
+            height: 380px;
+            text-align: center;
+            margin-top: 30px;
+        } 
+        .body{
+            min-height: auto;
+            min-width: 720px;
+            padding-top: 100px;    
+        }
+        .phone{
+            float: right;
+            padding-right: 50px;
+            height: 650px;
+        }
+       #txt{
+        margin-top: 10px;
+        border-color: rgb(180, 180, 180);
+        border: 1px solid;
+       }
+       .txt{
+        width: 100%;
+        border-color: rgb(180, 180, 180);
+        padding: 13px 0px 10px 0px;
+        border: 1px solid;
+        color: gray;
+        font-size: 11px;
+        padding-left: 5px;
+       }
+        .btn{
+            margin-top: 20px;
+            width: 100%;
+            border-radius: 13px 13px 13px 13px;
+            height: 40px;
+            color: white;
+            background-color: #4cb5f9;
+            border-color: #4cb5f9;
+        }
+        .logo{
+            height: 120px;
+             width: 200px;
+             margin: auto;
+             vertical-align: middle;
+        }
+        .line1{
+            width: 50%;
+            float: left;
+        }
+        .line2{
+            width: 50%;
+            float: right;
+        }
+        .ya-da{
+            text-align: center;
+           
+        }
+        .ya-da span{
+            display: inline-block;
+            padding: 0 18px;
+            font-size: 13px;
+           
+        }
+        .ya-da .left-hr, .ya-da .right-hr{
+            width: 14%;
+            height: 2px;
+            background-color: rgb(223, 220, 220);
+            margin-bottom: 8px;
+            margin-top:20px;
+            vertical-align: middle;
+        }
+        .ya-da .ya-da-text {
+           margin: 0 10px;
+           vertical-align: bottom;
+           color:gray;
+          
+        }
+        .fblog .fbtext{
+            font-size: 15px;
+            font-weight: bold;
+            padding-top: 25px;
+            vertical-align: middle;
+            color: blue ;
+            display: inline-block;
+        }
+        .pass{
+            font-size: 13px;
+            padding-top: 20px;
+        }
+        .sing-in{
+            width: 350px;
+            border: 1px solid;
+            margin-top: 10px;
+            border-color: rgb(180, 180, 180);
+            text-align: center;
+
+        }
+        .android{
+            display: inline-block;
+            float: left;
+            padding-left:50px ;
+            padding-top: 5px;
+        }
+        .microsoft{
+            display: inline-block;
+            float: left;
+            padding-left: 20px;
+            padding-top: 5px;
+        }
+        .apps{
+            text-align: center;
+            
+        }
+        .app{
+           padding-left: 110px;
+            margin: auto;
+            padding-top: 5px;
+        }
+
+    </style>
+</body>
+</html>
